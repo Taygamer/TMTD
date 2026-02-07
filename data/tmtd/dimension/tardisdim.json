@@ -1,5 +1,5 @@
 {
-  "type": "tardis_dim:tardisinterior",
+  "type": "tmtd:tardisinterior",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
