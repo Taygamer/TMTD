@@ -1,9 +1,7 @@
-tellraw @a {"text":"TMTD Datapack Loaded!","color":"blue","bold":true}
-tellraw @a {"text":"Welcome To The Minecraft Tardis Datapack! \n","color":"blue","bold":true}
-tellraw @a {"text":"Links: ","color":"green","bold":true}
-tellraw @a {"text":"Join The Discord Server For Updates!","color":"red","bold":true,underlined:true,"click_event":{action:"open_url",url:"https://discord.gg/9XPXeVacHP"}}
-tellraw @a {"text":"TMTD Resource Pack is Required for this to work ( Has Temp Placeholder webesite) ","color":"red","bold":true,"underlined":true,click_event:{action:"open_url",url:"https://jwars.weebly.com/"}}
-tellraw @a {"text":"\n","color":"yellow","bold":true,}
-tellraw @a {"text":"Made By Taygamerlol","color":"yellow","bold":true,}
-tellraw @a {"text":"Datapack V0.0.2","color":"yellow","bold":true}
-execute at @s run function tmtd:givekey
+scoreboard objectives add TARDIS dummy
+scoreboard players add @a TARDIS 1
+scoreboard players set @a TARDIS 1 
+execute at @a if score @s TARDIS matches 1 run function tmtd:welcome
+execute at @a if score @s TARDIS matches 1 run function tmtd:tardisinterior/interiorgen
+execute at @a if score @s TARDIS matches 1 run function tmtd:givekey
+tellraw @a {"text":"TMTD Loaded!","color":"green","bold":true}

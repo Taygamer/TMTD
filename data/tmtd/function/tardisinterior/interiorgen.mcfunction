@@ -1,0 +1,3 @@
+execute in tmtd:tardisdim run forceload add 0 0 -1 -1 
+execute in tmtd:tardisdim run setblock 0 64 0 minecraft:structure_block[mode=load]{author:"Taygamerlol",ignoreEntities:1b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"tmtd:tmtdinterior",posX:0,posY:1,posZ:0,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:20,sizeY:15,sizeZ:20}
+execute in tmtd:tardisdim run setblock 0 65 0 redstone_block
