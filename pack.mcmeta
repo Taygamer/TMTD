@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"description": "TMTD",
+		"pack_format": 92,
+        "supported_formats": {
+            "min_inclusive": 1,
+            "max_inclusive": 999
+        }
+	}
+}

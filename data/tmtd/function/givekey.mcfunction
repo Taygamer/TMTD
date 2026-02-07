@@ -1,0 +1,1 @@
+give @s iron_nugget[rarity="epic",lore=[{"bold":true,"color":"dark_purple","text":"Used To Enter The Tardis"}],item_name={"bold":true,"color":"dark_blue","text":"Tardis Key","underlined":true},max_stack_size=1] 1
