@@ -10,5 +10,5 @@ scoreboard players set LOCKED DoorLock 1
 scoreboard objectives add Debug dummy
 scoreboard players set Debug Debug 0
 scoreboard players set Open DoorLock 0
-
+summon interaction 2 66 16 {width:1.45f,height:2.4f,Tags:["TARDISDOOR","tardisdoor"],response:1b}
 

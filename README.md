@@ -7,6 +7,7 @@ And The TMTD Resource Pack Will Be Seperate Most likely In The Discord Along Wit
 
 Credits:
 Taygamerlol -Dev
+Catmaster12139 -Dev
 
 As Of Updated The Datapack is in V0.0.5
 
