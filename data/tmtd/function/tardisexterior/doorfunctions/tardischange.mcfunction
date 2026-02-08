@@ -1,0 +1,1 @@
+item replace entity @e[name="Tardis"] armor.head with zombie_head

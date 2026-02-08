@@ -1,0 +1,1 @@
+execute at @e[tag=tardisdoor] as @a[distance=..5] run playsound minecraft:entity.dragon_fireball.explode master @p ~ ~ ~ 5 2 0 
