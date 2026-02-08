@@ -5,4 +5,4 @@ tellraw @a {"text":"Join The Discord Server For Updates!","color":"red","bold":t
 tellraw @a {"text":"TMTD Resource Pack is Required for this to work ( Has Temp Placeholder webesite) ","color":"red","bold":true,"underlined":true,click_event:{action:"open_url",url:"https://jwars.weebly.com/"}}
 tellraw @a {"text":"\n","color":"yellow","bold":true,}
 tellraw @a {"text":"Made By Taygamerlol","color":"yellow","bold":true,}
-tellraw @a {"text":"Datapack V0.0.3","color":"yellow","bold":true}
+tellraw @a {"text":"Datapack V0.0.4","color":"yellow","bold":true}
